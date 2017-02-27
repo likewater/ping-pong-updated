@@ -1,0 +1,55 @@
+.jumbotron {
+    position: relative;
+    background: #000 url("../img/ping-pong-marquee-16x9.jpg") center center;
+    width: 100%;
+    height: 240px;
+    background-size: cover;
+    overflow: hidden;
+}
+ .container {
+    color: #373D3F;
+    background-color: #CFCFCF;
+    font: sans-serif;
+    padding: 10px;
+}
+
+h2 h3 p {
+    font: bold;
+}
+
+ul {
+  text-align: left;
+  list-style-type: none;
+  background-color: #FFFFFF;
+}
+
+li {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+  padding-left: 40px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+#inputText {
+    color: #C12F18!important;
+  }
+
+  @media (max-width: 768px) {
+    #right {
+      display: none;
+    }
+    #below {
+      display: inline;
+    }
+  }
+
+  @media (min-width: 769px) {
+    #right {
+      display: inline;
+    }
+    #below {
+      display: none;
+    }
+  }
