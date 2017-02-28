@@ -21,7 +21,7 @@
 | When returning the list, all numbers divisible by 5 will be replaced with the word "pong". | 7  | 1, 2, ping, 4, pong, ping, 7 |
 | When returning the list, all numbers divisible by 15 will be replaced with the word "ping-pong". | 15 | 1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, ping-pong|
 
-###This is the initial release (1.0). Check out my page on gh-pages: https://likewater.github.io/ping-pong/
+###This is the initial release (1.0). Check out my page on gh-pages: https://likewater.github.io/ping-pong-master/
 
 #Getting Started
 
