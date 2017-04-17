@@ -1,7 +1,6 @@
-//-----variables-----
+
 var storageArray = [];
 
-//-----backend logic-----
 function Calculator(skinName) {
   this.skin = skinName;
 }
@@ -18,15 +17,3 @@ function resetFunction() {
 }
 
 exports.calculatorModule = Calculator;
-
-//-----front end logic-----
-// $(function() {
-//   $("#formFlow").submit(function() {
-//     event.preventDefault();
-//     var userInput = $("#textInput").val();
-//     gameList = countNumbers(userInput);
-//     storageArray.forEach(function(listItems) {
-//       $("#listOutput").append('<li>' + listItems + '</li>');
-//     });
-//   });
-// });
